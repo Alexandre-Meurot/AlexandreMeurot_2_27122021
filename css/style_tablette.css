@@ -1,0 +1,96 @@
+
+/*************************** FILTRES ****************************/
+/****************************************************************/
+/****************************************************************/
+
+
+
+.texte_filtres{
+    margin-top: 20px;
+}
+
+.logo_texte_filtre{
+    margin-top: 20px;
+}
+
+
+
+/************************* HEBERGEMENT **************************/
+/****************************************************************/
+/****************************************************************/
+
+
+
+.hebergements_et_populaires{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.hebergements{
+    margin-bottom: 30px;
+}
+
+.carte_hebergement{
+    width: 550px;
+    height: 350px;
+}
+
+.carte_hebergement_image{
+    width: 550px;
+    height: 250px;
+}
+
+.carte_hebergement_image img{
+    width: 550px;
+    height: 250px;
+}
+
+
+/************************** POPULAIRES **************************/
+/****************************************************************/
+/****************************************************************/
+
+
+
+.populaires{
+    width: 100%;
+    margin: 0px;
+}
+
+.carte_populaire {
+    width: 550px;
+    height: 250px;
+}
+
+.carte_populaire_image {
+    width: 250px;
+    height: 250px;
+}
+
+.carte_populaire_image img {
+    height: 250px;
+    width: 100%;
+}
+
+
+/************************** ACTIVITES ***************************/
+/****************************************************************/
+/****************************************************************/
+
+
+
+.carte_activite_image{
+    overflow: hidden;
+}
+
+.carte_activite_image img{
+    height: 100px;
+    width: 250px;
+}
+
+.colonne .carte_activite_image img{
+    height: 300px;
+    width: 300px;
+}

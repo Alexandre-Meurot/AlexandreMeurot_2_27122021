@@ -1,0 +1,208 @@
+
+
+
+/*************************** GENERAL ****************************/
+/****************************************************************/
+/****************************************************************/
+
+
+
+body {
+    padding: 0px;
+}
+
+
+
+/*************************** HEADER *****************************/
+/****************************************************************/
+/****************************************************************/
+
+
+
+header {
+    flex-direction: column;
+}
+
+.logo1x{
+    display: none;
+}
+
+header .logo3x{
+    display: block;
+    margin: auto;
+
+    width: 35%;
+}
+
+header nav ul {
+    margin: 0px -20px;
+    padding: 0;
+}
+
+header nav ul li {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    border-top: none;
+    border-bottom: #F2F2F2 4px solid;
+}
+
+header nav ul li:hover{
+    color: #0065FC;
+    padding: 20px;
+    border-bottom: 4px solid #0065FC;
+    border-top: none;
+}
+
+
+/********************** BARRE DE RECHERCHE **********************/
+/****************************************************************/
+/****************************************************************/
+
+
+
+#button{
+    display: none;
+}
+
+form .fa-search {
+    display: block;
+    background-color: #0065fc;
+    color: white;
+
+    height: 35px;
+
+    padding: 10px;
+
+    font-size: medium;
+    font-weight: bold;
+
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+/*************************** FILTRES ****************************/
+/****************************************************************/
+/****************************************************************/
+
+
+
+.filtres{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_texte_filtre{
+    margin-top: 10px;
+}
+
+
+
+/************************* HEBERGEMENT **************************/
+/****************************************************************/
+/****************************************************************/
+
+.hebergements_et_populaires{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hebergements_et_populaires .hebergements{
+    order: 2;
+
+    background-color: white;
+}
+
+
+/************************** POPULAIRES **************************/
+/****************************************************************/
+/****************************************************************/
+
+
+
+.hebergements_et_populaires .populaires{
+    order: 1;
+}
+
+.populaires{
+    width: 100%;
+    min-width: 350px;
+    margin: 0px 0px;
+    border-radius: 0px;
+
+}
+
+.cartes_populaires{
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.carte_populaire{
+    width: 330px;
+    height: 170px;
+}
+
+
+/************************** ACTIVITES ***************************/
+/****************************************************************/
+/****************************************************************/
+
+.activites{
+    padding: 0px;
+}
+
+#activites{
+    margin-left: 30px;
+}
+
+.cartes_activites{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.carte_activite{
+    width: 300px;
+    height: 220px;
+    margin: 20px 0px;
+}
+
+.carte_activite_image{
+    height: 150px;
+    width: 300px;
+
+    border-radius: 25px 25px 0px 0px;
+
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.carte_activite_image img{
+    width: 300px;
+    height: 150px;
+
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/**************************** FOOTER ****************************/
+/****************************************************************/
+/****************************************************************/
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
