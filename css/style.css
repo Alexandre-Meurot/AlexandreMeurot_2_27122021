@@ -482,7 +482,7 @@ span{
     display: flex;
     flex-direction: column;
 
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .colonne_double .carte_activite{
