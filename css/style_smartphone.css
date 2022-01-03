@@ -206,3 +206,7 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
+.footer_colonne{
+    margin-bottom: 30px;
+}

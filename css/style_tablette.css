@@ -79,9 +79,15 @@
 /****************************************************************/
 /****************************************************************/
 
+.cartes_activites{
+    justify-content: space-between;
+}
 
+.carte_activite, .carte_activite2{
+    margin-bottom: 30px;
+}
 
-.carte_activite_image{
+.carte_activite_image,{
     overflow: hidden;
 }
 
